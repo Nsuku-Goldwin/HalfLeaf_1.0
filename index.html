@@ -4,20 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Half Leaf</title>
+    <link rel="stylesheet" href="style/style.css" />
   </head>
   <body>
     <!-- Header Open -->
-    <header>
+    <header class="navigation">
       <div>
-        <a href="index.html"><img src="images/logo.jpg" alt="Half Leaf" /></a>
-        <h1>Half Leaf</h1>
+        <a href="index.html"
+          ><img src="images/logo.jpg" alt="Half Leaf" class="navigation-image"
+        /></a>
+        <!-- <h1>Half Leaf</h1> -->
       </div>
-      <div>
-        <nav><a href="#">Tees</a></nav>
-        <nav><a href="#">Golfies</a></nav>
+      <nav class="navigation-links">
+        <div><a href="#">Tees</a></div>
+        <div><a href="#">Golfies</a></div>
         <nav><a href="#">About</a></nav>
+      </nav>
+      <div class="navigation-btn-wrapper">
+        <button class="navigation-btn" disabled>Call to Action</button>
       </div>
-      <div><button disabled>Call to Action</button></div>
     </header>
     <!-- Header Close -->
     <main>
