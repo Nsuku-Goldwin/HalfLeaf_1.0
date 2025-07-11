@@ -60,16 +60,31 @@
   font-size: large;
 }
 .product-header {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   text-align: center;
-  margin: auto;
+  margin: 16px;
 }
 .product {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
 }
 .product-wrapper img {
   width: 80%;
+  border-radius: 12px;
+}
+.product div {
+  background-color: rgba(172, 255, 47, 0.13);
+  border: 2px solid rgba(172, 255, 47, 0.233);
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  margin-left: 40px;
+  margin: auto;
+  width: 31%;
+  min-width: 300px;
+  max-width: 400px;
 }
